@@ -1,0 +1,79 @@
+.container  .square-and-circle {
+    border: 2px solid orchid;
+    width: 550px;
+    height: 250px;
+    margin-top: 100px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.container .square-and-circle .square-toright {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: relative;
+    float: left;
+    /* animation: animation-name duration timing-function delay iteration-count direction fill-mode; */
+    animation: example-square-toright 5s linear infinite;
+}
+
+.container .square-and-circle .square-toleft{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: relative;
+    float: right;
+    animation: example-square-toleft 5s linear infinite;
+}
+.container .square-and-circle .circle-toleft {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: relative;
+    border-radius: 50px;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    animation: example-circle-toleft 5s linear infinite;
+}
+.container .square-and-circle .circle-toright {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: relative;
+    border-radius: 50px;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    animation: example-circle-toright 5s linear infinite;
+}
+/* Animation */
+@keyframes example-square-toright {
+    0% {background-color:crimson; left:0px; top:0px;}
+    25% {background-color:lightsalmon; left:150px; top:0px;}
+    50% {background-color:seagreen; left:150px; top:150px;}
+    75% {background-color:midnightblue; left:0px; top:150px;}
+    100% {background-color:indigo; left:0px; top:0px;}
+}
+@keyframes example-square-toleft {
+    0% {background-color:crimson; right:0px; top:0px;}
+    25% {background-color:lightsalmon; right:150px; top:0px;}
+    50% {background-color:seagreen; right:150px; top:150px;}
+    75% {background-color:midnightblue; right:0px; top:150px;}
+    100% {background-color:indigo; right:0px; top:0px;}
+}
+@keyframes example-circle-toleft  {
+    0% {background-color:crimson; right:0px; top:0px;}
+    25% {background-color:lightsalmon; right:150px; top:0px;}
+    50% {background-color:seagreen; right:150px; top:150px;}
+    75% {background-color:midnightblue; right:0px; top:150px;}
+    100% {background-color:indigo; right:0px; top:0px;}
+}
+@keyframes example-circle-toright  {
+    0% {background-color:crimson; left:0px; top:0px;}
+    25% {background-color:lightsalmon; left:150px; top:0px;}
+    50% {background-color:seagreen; left:150px; top:150px;}
+    75% {background-color:midnightblue; left:0px; top:150px;}
+    100% {background-color:indigo; left:0px; top:0px;}
+}

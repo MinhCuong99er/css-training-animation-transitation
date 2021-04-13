@@ -1,0 +1,48 @@
+.container .square{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid orchid;
+    float: right;
+    margin-top: 100px;
+}
+.container .square .square-totop {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    /* animation: animation-name duration timing-function delay iteration-count direction fill-mode; */
+    animation: example-square-totop 5s linear infinite;
+}
+.container .square .square-totop {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    /* animation: animation-name duration timing-function delay iteration-count direction fill-mode; */
+    animation: example-square-totop 5s linear infinite;
+}
+.container .square .square-totop {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    /* animation: animation-name duration timing-function delay iteration-count direction fill-mode; */
+    animation: example-square-totop 5s linear infinite;
+}
+.container .square .square-totop {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    /* animation: animation-name duration timing-function delay iteration-count direction fill-mode; */
+    animation: example-square-totop 5s linear infinite;
+}
